@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Contact Details</h2>
+
+@Html.Hidden("Get",Url.Action("Get","Contact"))
+<table class="table">
+    <thead>
+        <tr>
+            <th>Contact Name</th>
+            <th>Contact No</th>
+        </tr>
+    </thead>
+    <tbody id="tblInfo"></tbody>
+</table>
+
